@@ -2,13 +2,6 @@ module.exports = {
   css: [
     'bulma'
   ],
-  render: {
-    bundleRenderer: {
-      shouldPreload: (file, type) => {
-        return ['script', 'style', 'font'].includes(type)
-      }
-    }
-  },
   /*
   ** Headers of the page
   */
